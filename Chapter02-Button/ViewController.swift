@@ -19,8 +19,6 @@ class ViewController: UIViewController {
         btn.setTitle("test button", for: .normal)
         
         // add button to root view
+        self.view.addSubview(btn)
     }
-
-
 }
-
